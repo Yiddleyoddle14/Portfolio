@@ -1,0 +1,2 @@
+This project was a game that outputs random addition equations and prompts the user to enter an answer. If the answer is correct, the user is told and the game is looped 
+with a new, different equation for them to figure out.

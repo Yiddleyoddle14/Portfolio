@@ -1,0 +1,2 @@
+This project generated a random, two-digit lottery number and prompted the user to enter their lottery number guess. It would then pay the user $10,000 if both digits were identical,
+$1,000 if one digit was identical, and no money if both digits weren't identical.
