@@ -11,14 +11,15 @@ public class Lottery {
 		Scanner input = new Scanner(System.in);
 		
 		//generate a lottery number
-		int lottery = (int)(Math.random() * 100);
+		String lottery = ""+(int)(Math.random()*10)+(int)(Math.random()*10);
+		
 		
 		//prompt user to enter a guess
 		System.out.println("Please enter your lottery pick (two digits): ");
-		int guess = input.nextInt();
+		String guess = input.nextLine();
 		
 		//get digits from lottery
-		int lotteryDigit1 = lottery / 10;
+		String lotteryDigit1 = lottery.charAt(0);
 		int lotteryDigit2 = lottery % 10;
 		
 		
@@ -32,7 +33,7 @@ public class Lottery {
 			System.out.println("Exact match! You win $10,000");
 			
 		}
-		else if (guessDigit2 == lotteryDigit1 && guessDigit1 == lotteryDigit2) {
+		else if (guessDigit2 == lotteryDigit1 && guessDigit1 .= lotteryDigit2) {
 			System.out.println("Match all digits: you win $3,000");
 			
 		}
